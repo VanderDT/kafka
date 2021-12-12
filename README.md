@@ -1,2 +1,2 @@
 # kafka
-Super simple ledacy kafka for newbies
+Super simple legacy kafka for newbies
