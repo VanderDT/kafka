@@ -1,4 +1,4 @@
-package com.gaurav.kafka.producer;
+package com.example.kafka.producer;
 
 import java.util.Properties;
 
@@ -8,7 +8,7 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.LongSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
-import com.gaurav.kafka.constants.IKafkaConstants;
+import com.example.kafka.constants.IKafkaConstants;
 
 public class ProducerCreator {
 

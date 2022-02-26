@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.gaurav.kafka</groupId>
-	<artifactId>kakfa-producer-consumer-example</artifactId>
+	<artifactId>kakfa-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <build>
         <plugins>
@@ -19,7 +19,7 @@
     </build>
     <packaging>jar</packaging>
 
-	<name>kakfa-producer-consumer-example</name>
+	<name>kakfa-example</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

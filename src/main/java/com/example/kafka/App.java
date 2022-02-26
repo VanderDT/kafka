@@ -1,20 +1,21 @@
-package com.gaurav.kafka;
+package com.example.kafka;
 
 import java.util.concurrent.ExecutionException;
 
+import com.example.kafka.constants.IKafkaConstants;
+import com.example.kafka.producer.ProducerCreator;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
 
-import com.gaurav.kafka.constants.IKafkaConstants;
-import com.gaurav.kafka.consumer.ConsumerCreator;
-import com.gaurav.kafka.producer.ProducerCreator;
+import com.example.kafka.consumer.ConsumerCreator;
 
 public class App {
-	public static void main(String[] args) {
-//		runProducer();
+	public static void main(String[] args) throws InterruptedException {
+		runProducer();
+		Thread.sleep(5000);
 		runConsumer();
 	}
 

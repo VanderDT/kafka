@@ -1,13 +1,13 @@
-package com.gaurav.kafka.constants;
+package com.example.kafka.constants;
 
 public interface IKafkaConstants {
-	public static String KAFKA_BROKERS = "192.168.1.13:9092";
+	public static String KAFKA_BROKERS = "31.130..:9092";
 	
 	public static Integer MESSAGE_COUNT=100;
 	
 	public static String CLIENT_ID="client1";
 	
-	public static String TOPIC_NAME="registrations";
+	public static String TOPIC_NAME="registration2";
 	
 	public static String GROUP_ID_CONFIG="consumerGroup10";
 	
